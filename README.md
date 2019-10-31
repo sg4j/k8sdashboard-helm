@@ -8,4 +8,4 @@ Helm Chart for installing k8s dashboard in read only mode.
 * This should ideally be put behind a firewall and/or with access restricted to your corporate/personal network CIDR. This can be achieved providing appropriate values in the included values.yaml file which controls creation of an alb-ingress in AWS.
 
 # Usage
-**helm upgrade kubernetes-dashboard ./helm/ --install -f values.yaml --namespace kubernetes-dashboard
+**helm upgrade kubernetes-dashboard ./helm/ --install -f values.yaml --namespace kubernetes-dashboard**
